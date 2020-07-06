@@ -1,0 +1,36 @@
+
+.title{
+    font-family: graff;
+    letter-spacing: 5px;
+    font-size: 70pt;
+    position: absolute;
+    left: 40px;
+    z-index: 1;
+    margin: 10px;
+}
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
+@font-face {
+  font-family: 'graff';
+  src: local('graff'), url(../misc/graff.otf) format('opentype');
+}
+
+
+/* autocomplete stuff */
+
+.react-autosuggest__input {
+  height: 20px;
+  padding: 10px 20px;
+  font-family: Helvetica,;
+  font-weight: 300;
+  font-size: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.react-autosuggest__suggestions-container{
+  cursor: pointer;
+  opacity: 0.9;
+}

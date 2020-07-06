@@ -1,0 +1,1236 @@
+{
+  "tripData": [
+    {
+      "startTime": "05/28/2020 11:35:47 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/28/2020 11:46:53 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "11 min 6 s"
+    },
+    {
+      "startTime": "05/23/2020 6:42:05 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/23/2020 7:18:29 PM",
+      "endStation": "Catherine St & Monroe St",
+      "duration": "36 min 24 s"
+    },
+    {
+      "startTime": "05/23/2020 3:46:00 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/23/2020 4:23:47 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "37 min 47 s"
+    },
+    {
+      "startTime": "05/22/2020 9:52:01 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/22/2020 10:00:20 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "8 min 19 s"
+    },
+    {
+      "startTime": "05/21/2020 9:00:35 PM",
+      "startStation": "Clinton St & Grand St",
+      "endTime": "05/21/2020 9:05:29 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "4 min 54 s"
+    },
+    {
+      "startTime": "05/21/2020 8:04:53 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/21/2020 8:08:27 PM",
+      "endStation": "Clinton St & Grand St",
+      "duration": "3 min 34 s"
+    },
+    {
+      "startTime": "05/21/2020 3:38:04 PM",
+      "startStation": "Cleveland Pl & Spring St",
+      "endTime": "05/21/2020 4:39:17 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "1 h 1 min 13 s"
+    },
+    {
+      "startTime": "05/21/2020 12:53:53 AM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "05/21/2020 1:03:29 AM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 36 s"
+    },
+    {
+      "startTime": "05/20/2020 6:23:15 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "05/20/2020 6:30:47 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "7 min 32 s"
+    },
+    {
+      "startTime": "03/16/2020 2:01:55 PM",
+      "startStation": "Rivington St & Chrystie St",
+      "endTime": "03/16/2020 2:26:49 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "24 min 54 s"
+    },
+    {
+      "startTime": "03/10/2020 9:50:48 PM",
+      "startStation": "Cooper Square & Astor Pl",
+      "endTime": "03/10/2020 10:00:23 PM",
+      "endStation": "Howard St & Centre St",
+      "duration": "9 min 35 s"
+    },
+    {
+      "startTime": "03/10/2020 5:43:55 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/10/2020 5:49:50 PM",
+      "endStation": "E 11 St & 2 Ave",
+      "duration": "5 min 55 s"
+    },
+    {
+      "startTime": "03/10/2020 3:11:35 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "03/10/2020 3:16:31 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "4 min 56 s"
+    },
+    {
+      "startTime": "03/10/2020 1:51:48 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/10/2020 1:55:43 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "3 min 55 s"
+    },
+    {
+      "startTime": "03/09/2020 4:48:45 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "03/09/2020 5:04:24 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "15 min 39 s"
+    },
+    {
+      "startTime": "03/09/2020 1:59:12 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "03/09/2020 2:02:06 PM",
+      "endStation": "University Pl & E 14 St",
+      "duration": "2 min 54 s"
+    },
+    {
+      "startTime": "03/09/2020 12:12:13 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/09/2020 12:17:46 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "5 min 33 s"
+    },
+    {
+      "startTime": "03/07/2020 5:13:26 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "03/07/2020 5:24:31 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "11 min 5 s"
+    },
+    {
+      "startTime": "03/06/2020 7:14:02 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/06/2020 7:32:59 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "18 min 57 s"
+    },
+    {
+      "startTime": "03/05/2020 3:34:11 PM",
+      "startStation": "Broadway & E 14 St",
+      "endTime": "03/05/2020 3:46:20 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "12 min 9 s"
+    },
+    {
+      "startTime": "03/05/2020 12:35:02 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/05/2020 12:39:13 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 11 s"
+    },
+    {
+      "startTime": "03/04/2020 4:03:46 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "03/04/2020 4:13:25 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 39 s"
+    },
+    {
+      "startTime": "03/04/2020 2:19:49 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "03/04/2020 2:23:06 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 17 s"
+    },
+    {
+      "startTime": "03/04/2020 12:30:27 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/04/2020 12:36:42 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "6 min 15 s"
+    },
+    {
+      "startTime": "03/03/2020 1:51:10 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/03/2020 1:56:21 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "5 min 11 s"
+    },
+    {
+      "startTime": "03/02/2020 8:25:13 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "03/02/2020 8:51:22 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "26 min 9 s"
+    },
+    {
+      "startTime": "03/02/2020 5:20:03 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "03/02/2020 5:23:05 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "3 min 2 s"
+    },
+    {
+      "startTime": "03/02/2020 1:50:23 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "03/02/2020 1:55:09 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "4 min 46 s"
+    },
+    {
+      "startTime": "03/02/2020 12:22:00 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/02/2020 12:26:56 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "4 min 56 s"
+    },
+    {
+      "startTime": "03/01/2020 1:42:17 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "03/01/2020 1:50:47 PM",
+      "endStation": "E 7 St & Avenue A",
+      "duration": "8 min 30 s"
+    },
+    {
+      "startTime": "02/29/2020 5:53:10 PM",
+      "startStation": "Washington Pl & Broadway",
+      "endTime": "02/29/2020 6:00:39 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 29 s"
+    },
+    {
+      "startTime": "02/28/2020 12:32:06 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/28/2020 12:39:01 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "6 min 55 s"
+    },
+    {
+      "startTime": "02/27/2020 3:40:08 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/27/2020 3:45:07 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "4 min 59 s"
+    },
+    {
+      "startTime": "02/27/2020 12:35:54 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/27/2020 12:40:26 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 32 s"
+    },
+    {
+      "startTime": "02/26/2020 5:17:34 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/26/2020 5:27:05 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 31 s"
+    },
+    {
+      "startTime": "02/26/2020 1:51:41 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/26/2020 2:01:26 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "9 min 45 s"
+    },
+    {
+      "startTime": "02/26/2020 12:17:16 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/26/2020 12:23:21 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "6 min 5 s"
+    },
+    {
+      "startTime": "02/25/2020 1:53:48 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/25/2020 2:00:47 PM",
+      "endStation": "Forsyth St & Broome St",
+      "duration": "6 min 59 s"
+    },
+    {
+      "startTime": "02/25/2020 12:28:34 PM",
+      "startStation": "E 7 St & Avenue A",
+      "endTime": "02/25/2020 12:33:27 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "4 min 53 s"
+    },
+    {
+      "startTime": "02/24/2020 10:38:16 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/24/2020 10:55:31 PM",
+      "endStation": "Stanton St & Norfolk St",
+      "duration": "17 min 15 s"
+    },
+    {
+      "startTime": "02/24/2020 5:35:35 PM",
+      "startStation": "Lafayette St & E 8 St",
+      "endTime": "02/24/2020 5:54:03 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "18 min 28 s"
+    },
+    {
+      "startTime": "02/24/2020 4:57:49 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/24/2020 5:01:36 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "3 min 47 s"
+    },
+    {
+      "startTime": "02/24/2020 2:32:29 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/24/2020 2:36:20 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 51 s"
+    },
+    {
+      "startTime": "02/24/2020 12:21:27 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/24/2020 12:26:10 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "4 min 43 s"
+    },
+    {
+      "startTime": "02/22/2020 9:42:21 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/22/2020 9:48:43 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "6 min 22 s"
+    },
+    {
+      "startTime": "02/21/2020 5:03:44 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/21/2020 5:18:02 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "14 min 18 s"
+    },
+    {
+      "startTime": "02/21/2020 1:58:59 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/21/2020 2:02:45 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 46 s"
+    },
+    {
+      "startTime": "02/21/2020 12:23:36 PM",
+      "startStation": "E 10 St & Avenue A",
+      "endTime": "02/21/2020 12:28:45 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "5 min 9 s"
+    },
+    {
+      "startTime": "02/20/2020 3:21:41 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/20/2020 3:27:11 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 30 s"
+    },
+    {
+      "startTime": "02/20/2020 12:29:15 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/20/2020 12:34:46 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "5 min 31 s"
+    },
+    {
+      "startTime": "02/19/2020 1:53:28 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/19/2020 1:55:27 PM",
+      "endStation": "University Pl & E 14 St",
+      "duration": "1 min 59 s"
+    },
+    {
+      "startTime": "02/19/2020 12:30:24 PM",
+      "startStation": "Cooper Square & Astor Pl",
+      "endTime": "02/19/2020 12:32:17 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "1 min 53 s"
+    },
+    {
+      "startTime": "02/18/2020 5:40:19 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/18/2020 5:47:04 PM",
+      "endStation": "E 11 St & 2 Ave",
+      "duration": "6 min 45 s"
+    },
+    {
+      "startTime": "02/18/2020 2:48:58 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/18/2020 2:55:33 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 35 s"
+    },
+    {
+      "startTime": "02/18/2020 12:25:58 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/18/2020 12:30:09 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 11 s"
+    },
+    {
+      "startTime": "02/15/2020 12:04:11 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "02/15/2020 12:13:01 PM",
+      "endStation": "Forsyth St & Canal St",
+      "duration": "8 min 50 s"
+    },
+    {
+      "startTime": "02/14/2020 6:06:24 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/14/2020 6:15:13 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "8 min 49 s"
+    },
+    {
+      "startTime": "02/14/2020 2:02:08 PM",
+      "startStation": "Lafayette St & E 8 St",
+      "endTime": "02/14/2020 2:08:56 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 48 s"
+    },
+    {
+      "startTime": "02/14/2020 12:17:29 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/14/2020 12:25:27 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "7 min 58 s"
+    },
+    {
+      "startTime": "02/13/2020 3:35:38 PM",
+      "startStation": "Great Jones St",
+      "endTime": "02/13/2020 3:45:26 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 48 s"
+    },
+    {
+      "startTime": "02/13/2020 1:52:00 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/13/2020 2:00:05 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "8 min 5 s"
+    },
+    {
+      "startTime": "02/12/2020 5:03:59 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/12/2020 5:13:41 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 42 s"
+    },
+    {
+      "startTime": "02/12/2020 2:20:59 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/12/2020 2:24:21 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 22 s"
+    },
+    {
+      "startTime": "02/11/2020 5:44:04 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/11/2020 5:51:51 PM",
+      "endStation": "E 11 St & 2 Ave",
+      "duration": "7 min 47 s"
+    },
+    {
+      "startTime": "02/11/2020 3:20:20 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/11/2020 3:25:31 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 11 s"
+    },
+    {
+      "startTime": "02/11/2020 3:19:55 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/11/2020 3:20:03 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "0 min 8 s"
+    },
+    {
+      "startTime": "02/11/2020 1:57:23 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/11/2020 2:03:43 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "6 min 20 s"
+    },
+    {
+      "startTime": "02/10/2020 5:54:26 PM",
+      "startStation": "Washington Pl & Broadway",
+      "endTime": "02/10/2020 6:01:47 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 21 s"
+    },
+    {
+      "startTime": "02/10/2020 4:51:59 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/10/2020 4:56:32 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "4 min 33 s"
+    },
+    {
+      "startTime": "02/10/2020 2:00:30 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/10/2020 2:04:37 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "4 min 7 s"
+    },
+    {
+      "startTime": "02/10/2020 12:20:17 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/10/2020 12:25:01 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "4 min 44 s"
+    },
+    {
+      "startTime": "02/10/2020 9:22:45 AM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/10/2020 9:27:05 AM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "4 min 20 s"
+    },
+    {
+      "startTime": "02/10/2020 8:42:53 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/10/2020 8:48:15 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "5 min 22 s"
+    },
+    {
+      "startTime": "02/08/2020 7:42:39 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "02/08/2020 7:57:32 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "14 min 53 s"
+    },
+    {
+      "startTime": "02/07/2020 6:47:21 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/07/2020 7:16:37 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "29 min 16 s"
+    },
+    {
+      "startTime": "02/06/2020 3:21:21 PM",
+      "startStation": "Washington Pl & Broadway",
+      "endTime": "02/06/2020 3:27:25 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "6 min 4 s"
+    },
+    {
+      "startTime": "02/06/2020 12:39:39 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/06/2020 12:45:19 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "5 min 40 s"
+    },
+    {
+      "startTime": "02/05/2020 2:16:53 PM",
+      "startStation": "Great Jones St",
+      "endTime": "02/05/2020 2:22:41 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 48 s"
+    },
+    {
+      "startTime": "02/05/2020 12:26:47 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/05/2020 12:32:27 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "5 min 40 s"
+    },
+    {
+      "startTime": "02/04/2020 9:42:39 PM",
+      "startStation": "Lafayette St & E 8 St",
+      "endTime": "02/04/2020 9:49:38 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 59 s"
+    },
+    {
+      "startTime": "02/04/2020 5:47:10 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/04/2020 5:54:49 PM",
+      "endStation": "E 11 St & 2 Ave",
+      "duration": "7 min 39 s"
+    },
+    {
+      "startTime": "02/04/2020 3:18:03 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "02/04/2020 3:28:25 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "10 min 22 s"
+    },
+    {
+      "startTime": "02/04/2020 12:30:14 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/04/2020 12:34:37 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 23 s"
+    },
+    {
+      "startTime": "02/03/2020 12:24:49 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "02/03/2020 12:28:49 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "4 min 0 s"
+    },
+    {
+      "startTime": "02/03/2020 9:20:40 AM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "02/03/2020 9:24:07 AM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 27 s"
+    },
+    {
+      "startTime": "02/03/2020 8:14:25 AM",
+      "startStation": "Mott St & Prince St",
+      "endTime": "02/03/2020 8:17:56 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "3 min 31 s"
+    },
+    {
+      "startTime": "02/02/2020 4:54:26 PM",
+      "startStation": "Clinton St & Grand St",
+      "endTime": "02/02/2020 5:00:19 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 53 s"
+    },
+    {
+      "startTime": "02/02/2020 4:23:00 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "02/02/2020 4:29:41 PM",
+      "endStation": "Clinton St & Grand St",
+      "duration": "6 min 41 s"
+    },
+    {
+      "startTime": "02/01/2020 8:17:28 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "02/01/2020 8:27:04 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "9 min 36 s"
+    },
+    {
+      "startTime": "02/01/2020 1:08:26 AM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "02/01/2020 1:18:46 AM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "10 min 20 s"
+    },
+    {
+      "startTime": "01/31/2020 7:51:18 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/31/2020 7:57:45 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "6 min 27 s"
+    },
+    {
+      "startTime": "01/31/2020 2:13:19 PM",
+      "startStation": "LaGuardia Pl & W 3 St",
+      "endTime": "01/31/2020 2:19:35 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 16 s"
+    },
+    {
+      "startTime": "01/31/2020 12:20:57 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/31/2020 12:28:10 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "7 min 13 s"
+    },
+    {
+      "startTime": "01/30/2020 3:19:32 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "01/30/2020 3:25:35 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 3 s"
+    },
+    {
+      "startTime": "01/30/2020 12:27:16 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/30/2020 12:33:05 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "5 min 49 s"
+    },
+    {
+      "startTime": "01/29/2020 11:02:51 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "01/29/2020 11:10:41 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 50 s"
+    },
+    {
+      "startTime": "01/29/2020 5:50:23 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/29/2020 5:54:33 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "4 min 10 s"
+    },
+    {
+      "startTime": "01/29/2020 1:58:54 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "01/29/2020 2:02:38 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 44 s"
+    },
+    {
+      "startTime": "01/29/2020 12:23:33 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/29/2020 12:29:18 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "5 min 45 s"
+    },
+    {
+      "startTime": "01/28/2020 6:44:19 PM",
+      "startStation": "Cooper Square & Astor Pl",
+      "endTime": "01/28/2020 6:52:24 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 5 s"
+    },
+    {
+      "startTime": "01/28/2020 5:38:26 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/28/2020 5:46:15 PM",
+      "endStation": "E 11 St & 2 Ave",
+      "duration": "7 min 49 s"
+    },
+    {
+      "startTime": "01/28/2020 3:15:11 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "01/28/2020 3:20:56 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 45 s"
+    },
+    {
+      "startTime": "01/28/2020 12:23:26 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/28/2020 12:30:53 PM",
+      "endStation": "LaGuardia Pl & W 3 St",
+      "duration": "7 min 27 s"
+    },
+    {
+      "startTime": "01/27/2020 5:06:51 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/27/2020 5:16:29 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 38 s"
+    },
+    {
+      "startTime": "01/27/2020 2:16:04 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "01/27/2020 2:19:13 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 9 s"
+    },
+    {
+      "startTime": "01/27/2020 12:19:34 PM",
+      "startStation": "E 7 St & Avenue A",
+      "endTime": "01/27/2020 12:24:47 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "5 min 13 s"
+    },
+    {
+      "startTime": "01/26/2020 8:22:45 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/26/2020 8:30:16 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "7 min 31 s"
+    },
+    {
+      "startTime": "01/24/2020 6:08:28 PM",
+      "startStation": "Hanson Pl & Ashland Pl",
+      "endTime": "01/24/2020 6:16:36 PM",
+      "endStation": "Cambridge Pl & Gates Ave",
+      "duration": "8 min 8 s"
+    },
+    {
+      "startTime": "01/24/2020 3:06:19 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/24/2020 3:15:01 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 42 s"
+    },
+    {
+      "startTime": "01/15/2020 12:35:24 AM",
+      "startStation": "E 2 St & Avenue B",
+      "endTime": "01/15/2020 12:43:30 AM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 6 s"
+    },
+    {
+      "startTime": "01/14/2020 8:14:02 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/14/2020 8:24:38 PM",
+      "endStation": "E 7 St & Avenue A",
+      "duration": "10 min 36 s"
+    },
+    {
+      "startTime": "01/14/2020 5:05:02 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/14/2020 5:13:33 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 31 s"
+    },
+    {
+      "startTime": "01/14/2020 12:41:37 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/14/2020 12:52:18 PM",
+      "endStation": "E 15 St & 3 Ave",
+      "duration": "10 min 41 s"
+    },
+    {
+      "startTime": "01/13/2020 5:25:13 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/13/2020 5:34:29 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 16 s"
+    },
+    {
+      "startTime": "01/11/2020 3:14:44 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/11/2020 3:24:11 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "9 min 27 s"
+    },
+    {
+      "startTime": "01/10/2020 6:56:55 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "01/10/2020 7:05:05 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "8 min 10 s"
+    },
+    {
+      "startTime": "01/10/2020 5:24:18 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "01/10/2020 5:33:10 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 52 s"
+    },
+    {
+      "startTime": "12/18/2019 5:58:31 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "12/18/2019 6:14:49 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "16 min 18 s"
+    },
+    {
+      "startTime": "12/18/2019 3:43:11 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/18/2019 3:49:18 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "6 min 7 s"
+    },
+    {
+      "startTime": "12/17/2019 11:21:00 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/17/2019 11:28:12 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 12 s"
+    },
+    {
+      "startTime": "12/17/2019 7:43:03 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/17/2019 7:49:27 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "6 min 24 s"
+    },
+    {
+      "startTime": "12/16/2019 11:52:49 AM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/16/2019 12:00:15 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 26 s"
+    },
+    {
+      "startTime": "12/16/2019 9:38:05 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/16/2019 9:44:50 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "6 min 45 s"
+    },
+    {
+      "startTime": "12/13/2019 3:41:29 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/13/2019 3:45:13 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "3 min 44 s"
+    },
+    {
+      "startTime": "12/13/2019 1:49:54 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/13/2019 1:55:27 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "5 min 33 s"
+    },
+    {
+      "startTime": "12/11/2019 4:17:34 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "12/11/2019 4:30:02 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "12 min 28 s"
+    },
+    {
+      "startTime": "12/11/2019 11:09:48 AM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "12/11/2019 11:17:44 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "7 min 56 s"
+    },
+    {
+      "startTime": "12/10/2019 8:44:52 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/10/2019 8:53:26 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "8 min 34 s"
+    },
+    {
+      "startTime": "12/10/2019 5:36:54 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "12/10/2019 5:41:45 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "4 min 51 s"
+    },
+    {
+      "startTime": "12/10/2019 12:01:48 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/10/2019 12:10:16 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "8 min 28 s"
+    },
+    {
+      "startTime": "12/09/2019 8:57:45 PM",
+      "startStation": "LaGuardia Pl & W 3 St",
+      "endTime": "12/09/2019 9:13:18 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "15 min 33 s"
+    },
+    {
+      "startTime": "12/09/2019 1:52:38 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "12/09/2019 1:58:47 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "6 min 9 s"
+    },
+    {
+      "startTime": "12/08/2019 9:01:53 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/08/2019 9:19:58 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "18 min 5 s"
+    },
+    {
+      "startTime": "12/07/2019 1:31:22 AM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "12/07/2019 1:40:44 AM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 22 s"
+    },
+    {
+      "startTime": "12/06/2019 8:30:11 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/06/2019 8:36:51 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "6 min 40 s"
+    },
+    {
+      "startTime": "12/06/2019 3:52:09 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/06/2019 4:00:05 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 56 s"
+    },
+    {
+      "startTime": "12/06/2019 1:46:50 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/06/2019 1:51:41 PM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 51 s"
+    },
+    {
+      "startTime": "12/05/2019 12:31:22 PM",
+      "startStation": "Suffolk St & Stanton St",
+      "endTime": "12/05/2019 12:35:24 PM",
+      "endStation": "Clinton St & Grand St",
+      "duration": "4 min 2 s"
+    },
+    {
+      "startTime": "12/04/2019 11:16:17 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/04/2019 11:20:48 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 31 s"
+    },
+    {
+      "startTime": "12/03/2019 7:59:43 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "12/03/2019 8:07:29 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 46 s"
+    },
+    {
+      "startTime": "12/03/2019 6:07:03 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "12/03/2019 6:11:10 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "4 min 7 s"
+    },
+    {
+      "startTime": "12/03/2019 12:21:32 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "12/03/2019 12:31:06 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "9 min 34 s"
+    },
+    {
+      "startTime": "11/26/2019 3:54:16 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "11/26/2019 4:02:54 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 38 s"
+    },
+    {
+      "startTime": "11/26/2019 11:58:49 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/26/2019 12:06:47 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "7 min 58 s"
+    },
+    {
+      "startTime": "11/25/2019 4:27:30 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "11/25/2019 4:47:40 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "20 min 10 s"
+    },
+    {
+      "startTime": "11/25/2019 11:10:29 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/25/2019 11:15:33 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "5 min 4 s"
+    },
+    {
+      "startTime": "11/23/2019 6:18:27 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/23/2019 6:24:41 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "6 min 14 s"
+    },
+    {
+      "startTime": "11/22/2019 3:25:30 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/22/2019 3:36:00 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "10 min 30 s"
+    },
+    {
+      "startTime": "11/22/2019 2:53:14 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "11/22/2019 3:02:59 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "9 min 45 s"
+    },
+    {
+      "startTime": "11/21/2019 2:00:10 PM",
+      "startStation": "St Marks Pl & 2 Ave",
+      "endTime": "11/21/2019 2:07:28 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 18 s"
+    },
+    {
+      "startTime": "11/20/2019 7:54:08 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/20/2019 8:11:24 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "17 min 16 s"
+    },
+    {
+      "startTime": "11/20/2019 3:42:16 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "11/20/2019 4:00:00 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "17 min 44 s"
+    },
+    {
+      "startTime": "11/20/2019 2:09:38 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/20/2019 2:13:41 PM",
+      "endStation": "Great Jones St",
+      "duration": "4 min 3 s"
+    },
+    {
+      "startTime": "11/19/2019 8:54:43 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "11/19/2019 9:10:59 PM",
+      "endStation": "Allen St & Hester St",
+      "duration": "16 min 16 s"
+    },
+    {
+      "startTime": "11/19/2019 5:39:27 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "11/19/2019 5:43:05 PM",
+      "endStation": "University Pl & E 8 St",
+      "duration": "3 min 38 s"
+    },
+    {
+      "startTime": "11/19/2019 12:32:39 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/19/2019 12:41:46 PM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "9 min 7 s"
+    },
+    {
+      "startTime": "11/18/2019 5:46:47 PM",
+      "startStation": "Lafayette St & Jersey St",
+      "endTime": "11/18/2019 5:51:29 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "4 min 42 s"
+    },
+    {
+      "startTime": "11/18/2019 5:04:12 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "11/18/2019 5:09:27 PM",
+      "endStation": "Lafayette St & Jersey St",
+      "duration": "5 min 15 s"
+    },
+    {
+      "startTime": "11/18/2019 2:04:00 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/18/2019 2:10:35 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "6 min 35 s"
+    },
+    {
+      "startTime": "11/15/2019 2:07:00 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "11/15/2019 2:14:42 PM",
+      "endStation": "Great Jones St",
+      "duration": "7 min 42 s"
+    },
+    {
+      "startTime": "11/14/2019 5:21:49 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "11/14/2019 5:39:13 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "17 min 24 s"
+    },
+    {
+      "startTime": "11/14/2019 11:48:53 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/14/2019 11:58:21 AM",
+      "endStation": "E 16 St & Irving Pl",
+      "duration": "9 min 28 s"
+    },
+    {
+      "startTime": "11/13/2019 5:24:34 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "11/13/2019 5:43:58 PM",
+      "endStation": "E 17 St & Broadway",
+      "duration": "19 min 24 s"
+    },
+    {
+      "startTime": "11/13/2019 11:18:34 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/13/2019 11:25:01 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "6 min 27 s"
+    },
+    {
+      "startTime": "11/11/2019 4:27:44 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "11/11/2019 4:34:53 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 9 s"
+    },
+    {
+      "startTime": "11/11/2019 11:11:27 AM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/11/2019 11:15:32 AM",
+      "endStation": "Mercer St & Bleecker St",
+      "duration": "4 min 5 s"
+    },
+    {
+      "startTime": "11/09/2019 1:53:33 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "11/09/2019 2:01:23 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "7 min 50 s"
+    },
+    {
+      "startTime": "11/08/2019 10:08:27 PM",
+      "startStation": "Cleveland Pl & Spring St",
+      "endTime": "11/08/2019 10:16:25 PM",
+      "endStation": "E 6 St & Avenue B",
+      "duration": "7 min 58 s"
+    },
+    {
+      "startTime": "11/07/2019 9:07:14 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/07/2019 9:42:51 PM",
+      "endStation": "E 2 St & Avenue B",
+      "duration": "35 min 37 s"
+    },
+    {
+      "startTime": "11/07/2019 2:53:31 PM",
+      "startStation": "E 6 St & Avenue B",
+      "endTime": "11/07/2019 3:01:51 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 20 s"
+    },
+    {
+      "startTime": "11/06/2019 9:47:24 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/06/2019 10:03:17 PM",
+      "endStation": "E 7 St & Avenue A",
+      "duration": "15 min 53 s"
+    },
+    {
+      "startTime": "11/06/2019 4:47:04 PM",
+      "startStation": "Mercer St & Bleecker St",
+      "endTime": "11/06/2019 4:52:30 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "5 min 26 s"
+    },
+    {
+      "startTime": "11/06/2019 1:40:43 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/06/2019 1:45:08 PM",
+      "endStation": "Great Jones St",
+      "duration": "4 min 25 s"
+    },
+    {
+      "startTime": "11/05/2019 8:05:07 PM",
+      "startStation": "University Pl & E 8 St",
+      "endTime": "11/05/2019 8:12:05 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "6 min 58 s"
+    },
+    {
+      "startTime": "11/05/2019 5:44:39 PM",
+      "startStation": "Grand St & Elizabeth St",
+      "endTime": "11/05/2019 5:51:03 PM",
+      "endStation": "Washington Pl & Broadway",
+      "duration": "6 min 24 s"
+    },
+    {
+      "startTime": "11/05/2019 4:36:26 PM",
+      "startStation": "E 17 St & Broadway",
+      "endTime": "11/05/2019 4:45:02 PM",
+      "endStation": "Grand St & Elizabeth St",
+      "duration": "8 min 36 s"
+    }
+  ]
+}

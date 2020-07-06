@@ -1,0 +1,27 @@
+{
+  "name": "citiRace",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aphrodite": "^2.4.0",
+    "mapbox-gl": "^1.11.0",
+    "react": "^16.13.1",
+    "react-autocomplete-input": "^1.0.13",
+    "react-autosuggest": "^10.0.2",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
