@@ -13,7 +13,6 @@ let App = (props)=>{
 			border:'solid green'
 		}
 	});
-	
 	return(
 		<div>
 				<div className={css(styles.heading)}>
