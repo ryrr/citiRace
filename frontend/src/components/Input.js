@@ -1,11 +1,13 @@
 import { StyleSheet, css } from 'aphrodite';
 import Autocomplete from './Autocomplete.js'
+import Filters from './Filters.js'
 import React, { useEffect, useRef, useState } from "react";
 
 let Input = (props)=>{
     const [validPath, setValidPath] = useState(false);
     const [pathInfo,setPathInfo] = useState(false)
     const [info, showInfo] = useState(false);
+    const [filters, showFilters] = useState(false);
     let validatePath = (x)=>{
         if(x){
             setValidPath(x[0])
@@ -25,13 +27,15 @@ let Input = (props)=>{
             alignItems:'center',
             zIndex:'1',
             backgroundColor:'rgba(0,0,0,0.5)',
-            top:'200px',
+            top:'150px',
             borderRadius:'10px',
             padding:'10px',
             left:'100px',
 			color:'white',
-			fontFamily:'helvetica',
-			width:'40%'
+            fontFamily:'helvetica',
+            paddingLeft:'30px',
+            paddingRight:'30px'
+			
         },
         info:{
             zIndex:'1', 
@@ -44,7 +48,8 @@ let Input = (props)=>{
             width:'450px',
             top:'120px',
             left:'25px',
-            border:'solid red',
+            borderRadius:'10px',
+            padding:'15px',
             color:'white'
             
         },
@@ -54,9 +59,18 @@ let Input = (props)=>{
             justifyContent:'space-between',
             width:'80%'
         }, 
+        heading:{
+            display:'flex',
+            width:'100%'
+        },
+        pathName:{
+            
+        },
         filters:{
             display:'flex',
-            flexDirection:'row'
+            flexDirection:'row',
+            marginTop:'20px'
+            
         },
 		dropdown:{
 			fontFamily:'helvetica',
@@ -64,10 +78,11 @@ let Input = (props)=>{
 			opacity:'0.9',
 			padding:'10px',
 			color:'grey',
-			borderRadius:'5px'
+            borderRadius:'5px',
+           
 		},
         to:{
-            margin:'10px'
+            margin:'10px',
         },
         go:{
             marginLeft:'20px',
@@ -114,24 +129,22 @@ let Input = (props)=>{
     else{
         return(
             <div className={css(styles.info)}>
-                <button onClick={()=>{showInfo(false)}}>BACK</button>
-                <h2>{validPath}</h2>
+                <div className={css(styles.heading)}>
+                    <i onClick={()=>{showInfo(false)}} class="fas fa-arrow-circle-left fa-3x" style={{marginTop:'10px',marginRight:'10px',cursor:'pointer'}} ></i>
+                    <h2 className={css(styles.pathName)}>{validPath}</h2>
+                </div>
+                <div className={css(styles.mapInfo)}>
+                    <h2>Estimate</h2>
+                    <h2>Distance</h2>
+                    <h2>Difficulty</h2>
+                </div>
                 <div className={css(styles.mapInfo)}>
                     <h2>{secToMin(pathInfo.matchings[0]['duration'])}</h2>
                     <h2>{meterToMiles(pathInfo.matchings[0]['distance'])} miles</h2>
                     <h2>{pathInfo.matchings[0]['weight']}</h2>
                 </div>
-                <div className={css(styles.filters)}>
-                    <select className={css(styles.dropdown)}>
-                        <option>fastest</option>
-                        <option>slowest</option>
-                    </select>
-                    <select className={css(styles.dropdown)}>
-                        <option>people</option>
-                        <option>men</option>
-                        <option>women</option>
-                    </select>
-                </div>
+                {filters?<i onClick={()=>{showFilters(false)}} class="fas fa-chevron-up fa-3x" style={{cursor:'pointer'}}></i>:<i onClick={()=>{showFilters(true)}} class="fas fa-chevron-down fa-3x" style={{cursor:'pointer'}}></i>}
+                {filters?<Filters></Filters>:null}
             </div>
         )
     }
