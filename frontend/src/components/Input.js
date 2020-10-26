@@ -96,6 +96,9 @@ let Input = (props)=>{
         invalid:{
             color:'red',
             margin:'20px'
+        },
+        stat:{
+            fontSize:'20pt'
         }
     });
 
@@ -139,9 +142,9 @@ let Input = (props)=>{
                     <h2>Difficulty</h2>
                 </div>
                 <div className={css(styles.mapInfo)}>
-                    <h2>{secToMin(pathInfo.matchings[0]['duration'])}</h2>
-                    <h2>{meterToMiles(pathInfo.matchings[0]['distance'])} miles</h2>
-                    <h2>{pathInfo.matchings[0]['weight']}</h2>
+                    <h2 className={css(styles.stat)}>{secToMin(pathInfo.matchings[0]['duration'])}</h2>
+                    <h2 className={css(styles.stat)}>{meterToMiles(pathInfo.matchings[0]['distance'])} miles</h2>
+                    <h2 className={css(styles.stat)}>{pathInfo.matchings[0]['weight']}</h2>
                 </div>
                 {filters?<i onClick={()=>{showFilters(false)}} class="fas fa-chevron-up fa-3x" style={{cursor:'pointer'}}></i>:<i onClick={()=>{showFilters(true)}} class="fas fa-chevron-down fa-3x" style={{cursor:'pointer'}}></i>}
                 {filters?<Filters></Filters>:null}
