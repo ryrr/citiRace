@@ -4,6 +4,8 @@ import Filters from './Filters.js'
 import React, { useEffect, useRef, useState } from "react";
 
 let Input = (props)=>{
+    const [ss, setSs] = useState(false);
+    const [es, setEs] = useState(false);
     const [validPath, setValidPath] = useState(false);
     const [pathInfo,setPathInfo] = useState(false)
     const [info, showInfo] = useState(false);
@@ -12,6 +14,9 @@ let Input = (props)=>{
         if(x){
             setValidPath(x[0])
             setPathInfo(x[1])
+            let paths = x[0].split('*')
+            setSs(paths[0])
+            setEs(paths[1])
         }
         else{
             setValidPath(false)
@@ -45,7 +50,7 @@ let Input = (props)=>{
             justifyContent:'center',
             alignItems:'center',
             flexDirection:'column',
-            width:'450px',
+            width:'490px',
             top:'120px',
             left:'25px',
             borderRadius:'10px',
@@ -64,7 +69,7 @@ let Input = (props)=>{
             width:'100%'
         },
         pathName:{
-            
+           
         },
         filters:{
             display:'flex',
@@ -82,7 +87,8 @@ let Input = (props)=>{
            
 		},
         to:{
-            margin:'10px',
+            marginLeft:'10px',
+            marginRight:'10px',
         },
         go:{
             marginLeft:'20px',
@@ -134,7 +140,9 @@ let Input = (props)=>{
             <div className={css(styles.info)}>
                 <div className={css(styles.heading)}>
                     <i onClick={()=>{showInfo(false)}} class="fas fa-arrow-circle-left fa-3x" style={{marginTop:'10px',marginRight:'10px',cursor:'pointer'}} ></i>
-                    <h2 className={css(styles.pathName)}>{validPath}</h2>
+                    <h2 className={css(styles.pathName)}>{ss}</h2>
+                    <h2 className={css(styles.to)}>to</h2>
+                    <h2 className={css(styles.pathName)}>{es}</h2>
                 </div>
                 <div className={css(styles.mapInfo)}>
                     <h2>Estimate</h2>
@@ -147,7 +155,7 @@ let Input = (props)=>{
                     <h2 className={css(styles.stat)}>{pathInfo.matchings[0]['weight']}</h2>
                 </div>
                 {filters?<i onClick={()=>{showFilters(false)}} class="fas fa-chevron-up fa-3x" style={{cursor:'pointer'}}></i>:<i onClick={()=>{showFilters(true)}} class="fas fa-chevron-down fa-3x" style={{cursor:'pointer'}}></i>}
-                {filters?<Filters></Filters>:null}
+                {filters?<Filters ss={ss} es={es}></Filters>:null}
             </div>
         )
     }

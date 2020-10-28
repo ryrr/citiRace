@@ -159,7 +159,7 @@ const stations = rawStations.features
         let fromName = map.getSource('fromPoint')['_data']['features'][0]['properties']['title']
         let toName = map.getSource('toPoint')['_data']['features'][0]['properties']['title']
         if(fromPoint[0]!=0 && toPoint[0]!=0){
-            let pathName = fromName+' to '+toName
+            let pathName = fromName+'*'+toName
             let coordinateString = fromPoint.toString()+';'+toPoint.toString()
             let pathObj = await requestPath(coordinateString)
             console.log(pathObj)

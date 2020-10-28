@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Ride from './Ride.js'
 let Filters = (props)=>{
     const [rides, setRides] = useState(false);
+    const [filters,setFilters] = useState({'gender':1,'type':1})
     const styles = StyleSheet.create({
         container:{
             display:'flex',
@@ -46,115 +47,48 @@ let Filters = (props)=>{
             marginTop:'30px'
         }
     })
-    let getRides = ()=>{
-        let doesrides = [{
-            "name": "Spanish Moss",
-            "age": 53,
-            "time": "20:06",
-            "sex": "F"
-            }, {
-            "name": "Fernleaf Biscuitroot",
-            "age": 76,
-            "time": "3:15",
-            "sex": "F"
-            }, {
-            "name": "Cathedral Bluff Meadow-rue",
-            "age": 78,
-            "time": "7:17",
-            "sex": "F"
-            }, {
-            "name": "Lengua De Vaca",
-            "age": 15,
-            "time": "4:18",
-            "sex": "F"
-            }, {
-            "name": "Blood-flower",
-            "age": 46,
-            "time": "2:26",
-            "sex": "F"
-            }, {
-            "name": "Variableleaf Flymallow",
-            "age": 60,
-            "time": "0:43",
-            "sex": "F"
-            }, {
-            "name": "Shady Woodsorrel",
-            "age": 19,
-            "time": "11:33",
-            "sex": "F"
-            }, {
-            "name": "Bitterbush",
-            "age": 80,
-            "time": "7:01",
-            "sex": "F"
-            }, {
-            "name": "Intricate Rim Lichen",
-            "age": 16,
-            "time": "19:44",
-            "sex": "M"
-            }, {
-            "name": "Walkingstick Cactus",
-            "age": 44,
-            "time": "21:46",
-            "sex": "F"
-            }, {
-            "name": "Cetraria Lichen",
-            "age": 65,
-            "time": "23:13",
-            "sex": "M"
-            }, {
-            "name": "Mt. Tedoc Linanthus",
-            "age": 31,
-            "time": "13:05",
-            "sex": "M"
-            }, {
-            "name": "Pyrenocollema Lichen",
-            "age": 64,
-            "time": "19:01",
-            "sex": "M"
-            }, {
-            "name": "Oriental Lady's Thumb",
-            "age": 76,
-            "time": "18:45",
-            "sex": "M"
-            }, {
-            "name": "Fewleaf Sunflower",
-            "age": 65,
-            "time": "20:21",
-            "sex": "M"
-            }, {
-            "name": "Pore Lichen",
-            "age": 57,
-            "time": "23:02",
-            "sex": "F"
-            }, {
-            "name": "Salt Spring Checkerbloom",
-            "age": 23,
-            "time": "9:31",
-            "sex": "M"
-            }, {
-            "name": "Dominican Signalgrass",
-            "age": 34,
-            "time": "10:25",
-            "sex": "F"
-            }, {
-            "name": "Groundberry",
-            "age": 1,
-            "time": "3:18",
-            "sex": "M"
-            }, {
-            "name": "White Kauai Rosemallow",
-            "age": 36,
-            "time": "19:51",
-            "sex": "F"
-            }]
-        return doesrides 
+    const secToMin = (sec)=>{
+        sec = Number(sec)
+        let mins = Math.floor(sec/60)
+        let seconds = Math.floor(sec%60)
+        let minSecs
+        if(seconds<10){
+            minSecs = mins+':'+seconds+'0'
+        }
+        else{
+            minSecs = mins+':'+seconds
+        }
+        return minSecs
+    } 
+    let formRide = (ride)=>{
+        let gender,name,time,age
+        if(ride['gender']===1){gender='M'}
+        if(ride['gender']===2){gender='F'}
+        if(ride['gender']===0){gender='O'}
+        age = 2020-(ride['birth year'])
+        name = 'Bingus Chops'
+        time = secToMin(ride['tripduration'])
+        let formedRide ={
+            name:'Bingus Chops',
+            age:age,
+            gender:gender,
+            time:time
+        }
+        return formedRide
     }
-    let makeRides = ()=>{
-        let themrides = getRides()
+    let makeRides = async()=>{
+        console.log('called')
+        let ss = (props.ss).replace(/ /g,"_");
+        let es = (props.es).replace(/ /g,"_");
+        let resp = await fetch(`http://localhost:3000/rides/${ss}/${es}/${filters.gender}/${filters.type}`)
+        let themrides = await resp.json()
+        console.log(resp)
         let ridess = []
+        let counter = 0
         for (let ride of themrides){
-            ridess.push(<Ride sex={ride['sex']} name={ride['name']} age={ride['age']} time={ride['time']}></Ride>)
+            let formedRide = formRide(ride)
+            ridess.push(<Ride key={counter} gender={formedRide['gender']} name={formedRide['name']} age={formedRide['age']} time={formedRide['time']}></Ride>)
+            counter+=1
         }
         setRides(ridess)
     }

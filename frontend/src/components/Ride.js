@@ -33,7 +33,7 @@ let Ride = (props)=>{
             <div className={css(styles.ride)}>
                 <div className={css(styles.time)}>{props.time}</div>
                 <div className={css(styles.name)}>{props.name}</div>
-                <div className={css(styles.personal)}>{props.sex}/{props.age}</div>
+                <div className={css(styles.personal)}>{props.gender}/{props.age}</div>
             </div>
         </div>
     )
