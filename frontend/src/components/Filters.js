@@ -3,7 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 import Ride from './Ride.js'
 let Filters = (props)=>{
     const [rides, setRides] = useState(false);
-    const [filters,setFilters] = useState({'gender':1,'type':1})
+    const [gender,setGender] = useState(1)
+    const [type,setType] = useState(1)
     const styles = StyleSheet.create({
         container:{
             display:'flex',
@@ -80,7 +81,7 @@ let Filters = (props)=>{
         console.log('called')
         let ss = (props.ss).replace(/ /g,"_");
         let es = (props.es).replace(/ /g,"_");
-        let resp = await fetch(`http://localhost:3000/rides/${ss}/${es}/${filters.gender}/${filters.type}`)
+        let resp = await fetch(`http://localhost:3000/rides/${ss}/${es}/${gender}/${type}`)
         let themrides = await resp.json()
         console.log(resp)
         let ridess = []
@@ -95,14 +96,14 @@ let Filters = (props)=>{
     return(
         <div className={css(styles.container)}>
             <div className={css(styles.filters)}>
-                <select className={css(styles.dropdown)}>
-                    <option>fastest</option>
-                    <option>slowest</option>
+                <select onChange={(e)=>{setType(e.target.value)}}className={css(styles.dropdown)}>
+                    <option value={1}>fastest</option>
+                    <option value={-1}>slowest</option>
                 </select>
-                <select className={css(styles.dropdown)}>
-                    <option>people</option>
-                    <option>men</option>
-                    <option>women</option>
+                <select  onChange={(e)=>{setGender(e.target.value)}}className={css(styles.dropdown)}>
+                    <option value={null}>people</option>
+                    <option value={1}>men</option>
+                    <option value={2}>women</option>
                 </select>
                 <select className={css(styles.dropdown)}>
                     <option>age</option>

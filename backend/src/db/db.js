@@ -20,7 +20,8 @@ exports.getRides = async(startStation,endStation,gender,type,limit)=>{
     const collection = db.collection('rides202009')
     let rides
     try{
-        rides = await collection.find({'start station name':startStation,'end station name':endStation}).sort({'tripduration':type}).limit(limit).toArray();
+        if(gender){ rides = await collection.find({'start station name':startStation,'end station name':endStation,'gender':gender}).sort({'tripduration':type}).limit(limit).toArray();}
+        else{rides = await collection.find({'start station name':startStation,'end station name':endStation}).sort({'tripduration':type}).limit(limit).toArray();}
     }catch (e) {
         console.error(e);
     }
