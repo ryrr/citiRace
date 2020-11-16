@@ -29,3 +29,17 @@ exports.getRides = async(startStation,endStation,gender,type,limit)=>{
     return rides
 }
 
+exports.getRanking = async(startStation,endStation,duration)=>{
+    let client = await getClient()
+    const db = client.db('citiracedb')
+    const collection = db.collection('rides202009')
+    let ranking
+    try{
+        ranking = await collection.find({'start station name':startStation,'end station name':endStation,'tripduration': { $lt: duration }}).limit(2000).count()
+    }catch (e) {
+        console.error(e);
+    }
+    client.close()
+    return ranking+1
+}
+
